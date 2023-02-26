@@ -6,13 +6,13 @@ app = Flask(__name__)
 def show_landing_page() -> str:
     print("Inside the landing page")
     print("Will write more logic later on.")
-    return "Hello from Rahul sanyasi on the landing page v.0.0.3!"
+    return "Hello from Rahul sanyasi on the landing page v.0.0.4!"
 
 @app.route("/ghar-thane")
 def home() -> str:
     print("Inside ghar-thane.")
     print("Will write more logic later on.")
-    return "Hello from Rahul inside home Function v.0.0.2!"
+    return "Hello from Rahul inside home Function v.0.0.3!"
 
 @app.route("/store")
 def shop() -> str:
